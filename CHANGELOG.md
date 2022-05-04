@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.7 - 2022-05-04
+
+- More badges to readme
+
 ## v0.0.6 - 2022-05-04
 
 - Add badges to readme
