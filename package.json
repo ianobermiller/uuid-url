@@ -1,6 +1,6 @@
 {
   "name": "uuid-url",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert a UUID to a shorter, URL-safe base64 string and back.",
   "repository": "github:ianobermiller/uuid-url",
   "keywords": [
@@ -12,7 +12,13 @@
   ],
   "type": "module",
   "main": "./dist/cjs/index.js",
-  "exports": "./dist/esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "default": "./dist/esm/index.js"
+    }
+  },
+  "module": "./dist/esm/index.js",
   "author": "Ian Obermiller <ian@obermillers.com>",
   "license": "ISC",
   "dependencies": {
