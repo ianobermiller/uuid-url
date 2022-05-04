@@ -1,6 +1,6 @@
 {
   "name": "uuid-url",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convert a UUID to a shorter, URL-safe base64 string and back.",
   "repository": "github:ianobermiller/uuid-url",
   "keywords": [
