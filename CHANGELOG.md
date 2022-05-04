@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.0.6 - 2022-05-04
+
+- Add badges to readme
+
+## v0.0.5 - 2022-05-04
+
+- Move changelog out of readme
+
 ## v0.0.4 - 2022-05-04
 
 - Switch main export to esm
