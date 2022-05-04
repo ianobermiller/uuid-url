@@ -1,6 +1,6 @@
 {
   "name": "uuid-url",
-  "version": "0.0.8",
+  "version": "0.0.0-development",
   "description": "Convert a UUID to a shorter, URL-safe base64 string and back.",
   "repository": "github:ianobermiller/uuid-url",
   "keywords": [
@@ -32,13 +32,15 @@
     "rimraf": "^3.0.2",
     "tsm": "^2.2.1",
     "typescript": "^4.6.4",
-    "uvu": "^0.5.3"
+    "uvu": "^0.5.3",
+    "semantic-release": "^19.0.2"
   },
   "scripts": {
     "build:esm": "esbuild --outfile=dist/esm/index.js --format=esm --bundle src/index.ts && tsc",
     "build:cjs": "esbuild --outfile=dist/cjs/index.cjs --format=cjs --bundle src/index.ts && tsc -p tsconfig-cjs.json",
     "build": "rimraf dist && yarn build:esm && yarn build:cjs",
-    "test": "tsm src/test.ts"
+    "test": "tsm src/test.ts",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "dist/cjs/index.*",
