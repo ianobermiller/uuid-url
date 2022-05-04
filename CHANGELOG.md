@@ -1,3 +1,10 @@
+## [0.0.10](https://github.com/ianobermiller/uuid-url/compare/v0.0.9...v0.0.10) (2022-05-04)
+
+
+### Bug Fixes
+
+* small change to typescript in readme ([fc54f98](https://github.com/ianobermiller/uuid-url/commit/fc54f98d537009915c59f1c30f5fda6dfe8c5793))
+
 ## [0.0.9](https://github.com/ianobermiller/uuid-url/compare/v0.0.8...v0.0.9) (2022-05-04)
 
 
