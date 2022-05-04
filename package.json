@@ -17,7 +17,7 @@
       "import": "./dist/esm/index.js",
       "require": "./dist/cjs/index.cjs"
     }
-  },,
+  },
   "sideEffects": false,
   "author": "Ian Obermiller <ian@obermillers.com>",
   "license": "ISC",
