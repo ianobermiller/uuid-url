@@ -1,0 +1,40 @@
+{
+  "name": "uuid-url",
+  "version": "0.0.1",
+  "description": "Convert a UUID to a shorter, URL-safe base64 string and back.",
+  "keywords": [
+    "uuid",
+    "base64",
+    "url-safe",
+    "url",
+    "browser"
+  ],
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "exports": "./dist/esm/index.js",
+  "author": "Ian Obermiller <ian@obermillers.com>",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=14.16"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "esbuild": "^0.14.38",
+    "tsm": "^2.2.1",
+    "typescript": "^4.6.4",
+    "uvu": "^0.5.3"
+  },
+  "scripts": {
+    "build:esm": "esbuild --outdir=dist/esm --format=esm --bundle src/index.ts && tsc",
+    "build:cjs": "esbuild --outdir=dist/cjs --format=cjs --bundle src/index.ts && tsc -p tsconfig-cjs.json",
+    "build": "yarn build:esm && yarn build:cjs",
+    "test": "tsm src/test.ts"
+  },
+  "files": [
+    "dist/cjs/index.*",
+    "dist/esm/index.*"
+  ]
+}
