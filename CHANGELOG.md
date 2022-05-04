@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.8 - 2022-05-04
+
+- Fix CommonJS distribution by using the .cjs extension
+
 ## v0.0.7 - 2022-05-04
 
 - More badges to readme
