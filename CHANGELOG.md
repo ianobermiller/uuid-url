@@ -1,3 +1,10 @@
+## [0.0.11](https://github.com/ianobermiller/uuid-url/compare/v0.0.10...v0.0.11) (2023-02-12)
+
+
+### Bug Fixes
+
+* Update packaging to use tsup, hopefully this fixes v0.10 breaking TypeScript ([4c097d7](https://github.com/ianobermiller/uuid-url/commit/4c097d716dab685e0ba313fbdbcd95ac95396f1c))
+
 ## [0.0.10](https://github.com/ianobermiller/uuid-url/compare/v0.0.9...v0.0.10) (2022-05-04)
 
 
