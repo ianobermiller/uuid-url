@@ -1,7 +1,7 @@
 # uuid-url
 
-![npm](https://img.shields.io/npm/v/uuid-url)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/uuid-url)
+[![npm](https://img.shields.io/npm/v/uuid-url)](https://www.npmjs.com/package/uuid-url)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/uuid-url)](https://bundlephobia.com/package/uuid-url)
 ![npm type definitions](https://img.shields.io/npm/types/uuid-url)
 ![NPM](https://img.shields.io/npm/l/uuid-url)
 
